@@ -1,0 +1,102 @@
+.background {
+  background-color: #f6f8fa;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.giticon {
+  width: 200px;
+  display: inline-block;
+}
+
+.title {
+  display: inline-block;
+  /* transform: translate(0,-80px); */
+  font-size: 40px;
+}
+
+.inputgroup {
+  max-width: 800px;
+}
+
+.img {
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(100px, 0);
+}
+
+.grid {
+  max-width: 800px;
+
+  display: grid;
+  grid-template-rows: 0.5fr 3fr;
+  row-gap: 50px;
+  margin: auto;
+}
+.profilegrid {
+  /* background-color: bisque; */
+  max-width: 800px;
+  display: grid;
+  
+  grid-template-columns: 1fr 3fr;
+}
+
+.repos {
+  overflow-y: scroll;
+  max-height: 300px;
+}
+.repos::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+  background-clip: content-box;
+}
+
+.repos::-webkit-scrollbar-thumb {
+  height: 10px; /* 스크롤바의 길이 */
+  background: rgba(197, 191, 174, 0.8); /* 스크롤바의 색상 */
+
+  border-radius: 10px;
+}
+.area {
+  /* margin: 40px 30px; */
+  /* width: 180px; */
+  height: 40px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.seroalign {
+  /* position: relative; */
+  /* top: 50%; */
+  transform: translateY(20%);
+}
+
+
+.mymodal {
+  width: 50vw; /* Occupy the 90% of the screen width */
+  max-width: 60vw;
+}
+
+.mymodal div {
+  border-radius: 30px;
+  margin: 3px;
+  border:0;
+}
+
+
+
+#Button{
+  position: absolute;
+  bottom: 3%;
+  right:10%;  
+  color: black;
+  background-color: rgb(130, 131, 128);
+  border-color: rgb(218, 221, 224);
+}
+
+#Button:hover{
+  background-color: rgb(76, 76, 76);
+}
